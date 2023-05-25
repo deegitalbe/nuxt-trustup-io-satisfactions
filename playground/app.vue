@@ -14,6 +14,12 @@
         <div
           class="text-center p-8 rounded-full bg-white w-[650px] h-[650px] shadow-lg"
         >
+          <div
+            class="absolute top-5 right-5 py-1 px-2 bg-[#FF8A00] rounded-md text-white text-xs font-semibold cursor-pointer text-center"
+            @click="open()"
+          >
+            <i class="fa-solid fa-plus font-s text-2xl" />
+          </div>
           <div>
             <div class="text-[300px]">🎉</div>
             <div class="text-2xl text-gray-600 font-thin">
@@ -27,9 +33,11 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "#imports";
+import { onMounted, ref, useEditSatisfaction } from "#imports";
 
 const isReady = ref<boolean>(false);
 
 onMounted(() => (isReady.value = true));
+const { open, onSuccess } = useEditSatisfaction("1");
+onSuccess((note) => console.log(note));
 </script>

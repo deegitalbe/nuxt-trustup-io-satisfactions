@@ -2,7 +2,7 @@ import {
   defineNuxtModule,
   // createResolver,
   // addComponent,
-  // addImports,
+  addImports,
 } from "@nuxt/kit";
 
 // Module options TypeScript interface definition
@@ -21,9 +21,16 @@ export default defineNuxtModule<ModuleOptions>({
     //   export: "NotificationContainer",
     //   filePath: "@deegital/vue-trustup-io-toasteo",
     // });
-    // addImports({
-    //   name: "useToasteo",
-    //   from: "@deegital/vue-trustup-io-toasteo",
-    // });
+
+    addImports([
+      {
+        name: "useCreateSatisfaction",
+        from: "@deegital/vue-3-trustup-io-satisfactions",
+      },
+      {
+        name: "useEditSatisfaction",
+        from: "@deegital/vue-3-trustup-io-satisfactions",
+      },
+    ]);
   },
 });

@@ -3,9 +3,7 @@ dotenv.config();
 
 export default defineNuxtConfig({
   modules: ["../src/module"],
-  nuxtTrustupIoSatisfactions: {
-    // @TODO
-  },
+  nuxtTrustupIoSatisfactions: {},
   postcss: {
     plugins: {
       tailwindcss: {},
