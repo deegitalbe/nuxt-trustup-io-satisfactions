@@ -15,6 +15,7 @@ export default defineNuxtModule<ModuleOptions>({
   },
   defaults: {},
   setup(_options, _nuxt) {
+    // fkjsdl
     // const resolver = createResolver(import.meta.url);
     // addComponent({
     //   name: "TrustupIoToasteo",
