@@ -27,7 +27,7 @@
     "format": "prettier --write \"src/**/*\"",
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "validate": "yarn lint && yarn test && yarn format",
+    "validate": "yarn lint && yarn format && yarn test",
     "build": "nuxt-module-build",
     "release": "yarn build && changeset publish"
   },
