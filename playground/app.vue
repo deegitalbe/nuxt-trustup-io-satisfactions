@@ -24,20 +24,23 @@
             <div class="text-[300px]">🎉</div>
             <div class="text-2xl text-gray-600 font-thin">
               Let's build something amazing !
+              <button @click="openSatisfaction">youhou</button>
             </div>
           </div>
         </div>
       </div>
     </Transition>
+    <ModalsContainer />
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, useEditSatisfaction } from "#imports";
+import { useEditSatisfaction } from "@deegital/vue-3-trustup-io-satisfactions";
+import SayHello from "./modals/SayHello.vue";
+import { onMounted, ref, useModal } from "#imports";
 
 const isReady = ref<boolean>(false);
-
+const { open } = useModal(SayHello, {});
 onMounted(() => (isReady.value = true));
-const { open, onSuccess } = useEditSatisfaction("1");
-onSuccess((note) => console.log(note));
+const { open: openSatisfaction } = useEditSatisfaction("1");
 </script>

@@ -63,7 +63,8 @@
     "vue-tsc": "^1.4.4"
   },
   "dependencies": {
-    "@deegital/vue-3-trustup-io-satisfactions": "^0.1.1",
+    "@deegital/nuxt-trustup-io-vue-final-modal": "^0.0.1",
+    "@deegital/vue-3-trustup-io-satisfactions": "^0.1.4",
     "@nuxt/kit": "^3.4.2",
     "npm": "^9.6.7"
   }

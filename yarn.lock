@@ -504,6 +504,14 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@deegital/nuxt-trustup-io-vue-final-modal@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@deegital/nuxt-trustup-io-vue-final-modal/-/nuxt-trustup-io-vue-final-modal-0.0.1.tgz#67229dc56490debfdfe1fd44451aa3930e2447b3"
+  integrity sha512-/wvsMwQYKD+p6bcsGBio0jIDZXySpcUXRAlya0oehs1BbHRWpr8tm9ByLLww+Wy2BhWcjTm+FIxwKadHokBRNQ==
+  dependencies:
+    "@deegital/vue3-trustup-io-vue-final-modal" "^0.2.4"
+    "@nuxt/kit" "^3.4.2"
+
 "@deegital/vue-3-trustup-io-i18n@^0.0.11":
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-i18n/-/vue-3-trustup-io-i18n-0.0.11.tgz#d3bcbfbfaa0e726dd4667eb5230519a3c50cebf6"
@@ -521,15 +529,15 @@
   dependencies:
     vue "^3.2.47"
 
-"@deegital/vue-3-trustup-io-satisfactions@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.1.1.tgz#0925d22a68226ca19526ad5636bc2e579864283f"
-  integrity sha512-T+1t8IR2o1Hdbxgn8ODvpQ/qG626xEVq5kco5lWsfUG8/j91M2cOWRyXKrzTy2n4y9K+0Xlxiy+dcJ7xW6+xUw==
+"@deegital/vue-3-trustup-io-satisfactions@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.1.4.tgz#1ca1bbfc8cd3ca33d03fa9bfe3d2be9ffe7d4216"
+  integrity sha512-4WanZxJEW06OwxNbDQpr0Ze4D6V4766xcYrqgN505BdDb3ADxU/R8ob1kVEpqcbIPgAKEGrv+CcdFMnZ9BBZuw==
   dependencies:
     "@deegital/vue-3-trustup-io-i18n" "^0.0.11"
     "@deegital/vue-3-trustup-io-loader" "^0.0.8"
     "@deegital/vue-trustup-io-toasteo" "^1.1.9"
-    "@deegital/vue3-trustup-io-vue-final-modal" "^0.2.2"
+    "@deegital/vue3-trustup-io-vue-final-modal" "^0.2.4"
     "@henrotaym/api-client" "^1.3.3"
     "@henrotaym/vue-3-forms" "^0.0.2"
     "@vueuse/core" "^10.1.2"
@@ -546,10 +554,10 @@
   dependencies:
     vue "^3.2.47"
 
-"@deegital/vue3-trustup-io-vue-final-modal@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@deegital/vue3-trustup-io-vue-final-modal/-/vue3-trustup-io-vue-final-modal-0.2.2.tgz#d68a017912bc95595c5062419a44a0e0d9ea6485"
-  integrity sha512-QpwKUOoyfUGkN4l8aHR0HkYBkv4CZzwUdjSRofYVvQ2FfPkC49hnjCfpOXGh8t99pzGIgAw+v/WBZsMUwQCFgw==
+"@deegital/vue3-trustup-io-vue-final-modal@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@deegital/vue3-trustup-io-vue-final-modal/-/vue3-trustup-io-vue-final-modal-0.2.4.tgz#29fe9af97c00d3bc903d6b49e60774fc008c1a4d"
+  integrity sha512-eGNON5WvdKHka2UUqcdQ6wuJpxHmWUzwbr1/lY0TuvkV2w+Ne7pTDQPADZy3Z8RgVIUrn/gKShI8EvvJlZ9Fxw==
   dependencies:
     vue "^3.2.47"
     vue-final-modal "^4.4.2"

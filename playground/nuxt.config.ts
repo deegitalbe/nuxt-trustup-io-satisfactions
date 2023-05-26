@@ -2,8 +2,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export default defineNuxtConfig({
-  modules: ["../src/module"],
-  nuxtTrustupIoSatisfactions: {},
+  modules: ["../src/module", "@deegital/nuxt-trustup-io-vue-final-modal"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -14,6 +13,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
+  ssr: false,
   devServer: {
     port: parseInt(process.env.APP_PORT || "3000"),
   },
