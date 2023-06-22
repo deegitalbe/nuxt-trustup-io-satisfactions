@@ -3,15 +3,12 @@ dotenv.config();
 
 export default defineNuxtConfig({
   modules: [
-    "@deegital/nuxt-trustup-io-translations",
-    "@henrotaymcorp/nuxt-modal",
-
     "../src/module",
+    "@henrotaymcorp/nuxt-modal",
+    "@deegital/nuxt-trustup-io-translations",
   ],
-  runtimeConfig: {
-    public: {
-      appName: "trustup-pro",
-    },
+  nuxtTrustupIoSatisfactions: {
+    // @TODO
   },
   postcss: {
     plugins: {
@@ -19,11 +16,19 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      appName: "trustup-pro",
+    },
+  },
+  nuxtModal: {},
+
   css: ["~/assets/css/main.css"],
   typescript: {
     strict: true,
   },
   ssr: false,
+
   devServer: {
     port: parseInt(process.env.APP_PORT || "3000"),
   },
