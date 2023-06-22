@@ -24,9 +24,40 @@ export default defineNuxtConfig({
 That's it! You can now use `nuxt-trustup-io-satisfactions` in your Nuxt app ✨
 
 ## Usage
+```Edition
+... 
 
-```typescript
-// @TODO
+
+ // IMPORTANT !!
+    <ModalsContainer />
+  </div>
+</template>
+
+<script setup lang="ts">
+// useEditNoteModal for editing existing note. args => note uuid 
+const { open, onSuccess } = useEditNoteModal("1");
+onSuccess((note) => console.log(note));
+</script>
+```
+```Creation
+... 
+
+
+ // IMPORTANT !!
+    <ModalsContainer />
+  </div>
+</template>
+
+<script setup lang="ts">
+// useCreateNoteModal to create a  note. args 
+// MANDATORY ARGGUMENTS
+const { open, onSuccess } = useCreateNoteModal({
+    origin: Origin.MARKETPLACE,
+    relatedToId: "1",
+    createdById: 1,
+    relatedToType: "user",
+  });
+onSuccess((note) => console.log(note));
 ```
 
 ## Development
