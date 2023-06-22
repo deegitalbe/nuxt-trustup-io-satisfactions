@@ -34,13 +34,13 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, useCreateNoteModal } from "#imports";
+import { onMounted, ref, useEditNoteModal } from "#imports";
 import "../node_modules/@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
 import "@henrotaymcorp/vue-modal/dist/style.css";
 const isReady = ref<boolean>(false);
 
 // const { open } = useModal(SayHello, {});
 onMounted(() => (isReady.value = true));
-const { open, onSuccess } = useCreateNoteModal("1");
+const { open, onSuccess } = useEditNoteModal("1");
 onSuccess((note) => console.log(note));
 </script>
