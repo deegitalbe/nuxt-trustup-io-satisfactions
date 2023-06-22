@@ -16,7 +16,6 @@
         >
           <div
             class="absolute top-5 right-5 py-1 px-2 bg-[#FF8A00] rounded-md text-white text-xs font-semibold cursor-pointer text-center"
-            @click="open()"
           >
             <i class="fa-solid fa-plus font-s text-2xl" />
           </div>
@@ -24,7 +23,7 @@
             <div class="text-[300px]">🎉</div>
             <div class="text-2xl text-gray-600 font-thin">
               Let's build something amazing !
-              <button @click="openSatisfaction">youhou</button>
+              <button @click="open()">youhou</button>
             </div>
           </div>
         </div>
@@ -35,12 +34,13 @@
 </template>
 
 <script setup lang="ts">
-import { useEditSatisfaction } from "@deegital/vue-3-trustup-io-satisfactions";
-import SayHello from "./modals/SayHello.vue";
-import { onMounted, ref, useModal } from "#imports";
-
+import { onMounted, ref, useCreateNoteModal } from "#imports";
+import "../node_modules/@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
+import "@henrotaymcorp/vue-modal/dist/style.css";
 const isReady = ref<boolean>(false);
-const { open } = useModal(SayHello, {});
+
+// const { open } = useModal(SayHello, {});
 onMounted(() => (isReady.value = true));
-const { open: openSatisfaction } = useEditSatisfaction("1");
+const { open, onSuccess } = useCreateNoteModal("1");
+onSuccess((note) => console.log(note));
 </script>

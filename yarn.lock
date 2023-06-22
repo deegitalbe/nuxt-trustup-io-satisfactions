@@ -504,23 +504,13 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@deegital/nuxt-trustup-io-vue-final-modal@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@deegital/nuxt-trustup-io-vue-final-modal/-/nuxt-trustup-io-vue-final-modal-0.0.1.tgz#67229dc56490debfdfe1fd44451aa3930e2447b3"
-  integrity sha512-/wvsMwQYKD+p6bcsGBio0jIDZXySpcUXRAlya0oehs1BbHRWpr8tm9ByLLww+Wy2BhWcjTm+FIxwKadHokBRNQ==
+"@deegital/nuxt-trustup-io-translations@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@deegital/nuxt-trustup-io-translations/-/nuxt-trustup-io-translations-0.0.9.tgz#bf2456e079c69211b2cc95fb8da6929f873dc566"
+  integrity sha512-Fq3xWmHP/kaOp1RfqSeLn6GnTv5A6FCfMV4U6Rpp/kKqf88WwQSxLPQor9cOPDB+HIPAlZWuYnKbL6U9d9lETg==
   dependencies:
-    "@deegital/vue3-trustup-io-vue-final-modal" "^0.2.4"
+    "@deegital/vue-3-trustup-io-translations" "0.0.12"
     "@nuxt/kit" "^3.4.2"
-
-"@deegital/vue-3-trustup-io-i18n@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-i18n/-/vue-3-trustup-io-i18n-0.0.11.tgz#d3bcbfbfaa0e726dd4667eb5230519a3c50cebf6"
-  integrity sha512-N6GO/RcGO9ORMOGFjyAMRku+SVPfLgakarYX8zIQkGX+iq8HM02NVdIpaCF2AjZGPUZ18u5yv1rLbrrqOxChtA==
-  dependencies:
-    "@henrotaym/api-client" "^1.3.3"
-    "@henrotaym/helpers" "^1.2.0"
-    vue "^3.2.47"
-    vue-i18n "9"
 
 "@deegital/vue-3-trustup-io-loader@^0.0.8":
   version "0.0.8"
@@ -529,23 +519,32 @@
   dependencies:
     vue "^3.2.47"
 
-"@deegital/vue-3-trustup-io-satisfactions@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.1.4.tgz#1ca1bbfc8cd3ca33d03fa9bfe3d2be9ffe7d4216"
-  integrity sha512-4WanZxJEW06OwxNbDQpr0Ze4D6V4766xcYrqgN505BdDb3ADxU/R8ob1kVEpqcbIPgAKEGrv+CcdFMnZ9BBZuw==
+"@deegital/vue-3-trustup-io-satisfactions@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.6.tgz#34b01419117d827d9c3f692aeea205fe69fa9af3"
+  integrity sha512-u021iTmfixw01c5kO7G1rKZIbny57ZHNYYu/JQRAF0o9Hc0GpQ6DsevGnJBynU2PJCi+bsJVSQdU7w1uXQl0eg==
   dependencies:
-    "@deegital/vue-3-trustup-io-i18n" "^0.0.11"
     "@deegital/vue-3-trustup-io-loader" "^0.0.8"
+    "@deegital/vue-3-trustup-io-translations" "^0.0.12"
     "@deegital/vue-trustup-io-toasteo" "^1.1.9"
-    "@deegital/vue3-trustup-io-vue-final-modal" "^0.2.4"
     "@henrotaym/api-client" "^1.3.3"
-    "@henrotaym/vue-3-forms" "^0.0.2"
+    "@henrotaym/vue-3-forms" "^1.0.1"
+    "@henrotaymcorp/vue-modal" "^0.0.2"
     "@vueuse/core" "^10.1.2"
-    joi "^17.9.2"
     mitt "^3.0.0"
     vue "^3.2.47"
-    vue-star-rating "^2.1.0"
+    yarn "^1.22.19"
     zod "^3.21.4"
+
+"@deegital/vue-3-trustup-io-translations@0.0.12", "@deegital/vue-3-trustup-io-translations@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-translations/-/vue-3-trustup-io-translations-0.0.12.tgz#7598fe0dacf8e64f53e82dc7b91cd41328b2ad29"
+  integrity sha512-anWAci90T8S9SOysGRfjFvY+qyPJ77cugCAYRA5DDM6nQnuxlS7i4ZRgw4jrhD9wc2r1fYGSLpylIJqSRrOx3A==
+  dependencies:
+    "@henrotaym/api-client" "^1.3.3"
+    "@henrotaym/helpers" "^1.2.0"
+    vue "^3.2.47"
+    vue-i18n "9"
 
 "@deegital/vue-trustup-io-toasteo@^1.1.9":
   version "1.1.10"
@@ -553,14 +552,6 @@
   integrity sha512-N3o84x5215XcjFEKkRenZK9CO0fWwUUbhd6SvWuO9DmR1IcqPkUpxsf9tcHe39kO007mdFmNeNu6P49DLMORwA==
   dependencies:
     vue "^3.2.47"
-
-"@deegital/vue3-trustup-io-vue-final-modal@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@deegital/vue3-trustup-io-vue-final-modal/-/vue3-trustup-io-vue-final-modal-0.2.4.tgz#29fe9af97c00d3bc903d6b49e60774fc008c1a4d"
-  integrity sha512-eGNON5WvdKHka2UUqcdQ6wuJpxHmWUzwbr1/lY0TuvkV2w+Ne7pTDQPADZy3Z8RgVIUrn/gKShI8EvvJlZ9Fxw==
-  dependencies:
-    vue "^3.2.47"
-    vue-final-modal "^4.4.2"
 
 "@esbuild/android-arm64@0.17.19":
   version "0.17.19"
@@ -709,18 +700,6 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@hapi/hoek@^9.0.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
-  integrity sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==
-
-"@hapi/topo@^5.0.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@hapi/topo/-/topo-5.1.0.tgz#dc448e332c6c6e37a4dc02fd84ba8d44b9afb012"
-  integrity sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==
-  dependencies:
-    "@hapi/hoek" "^9.0.0"
-
 "@henrotaym/api-client@^1.3.3":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/@henrotaym/api-client/-/api-client-1.3.3.tgz#a3a65b4f202640b4f2ca5cf05bd72834a12db0f3"
@@ -733,13 +712,29 @@
   resolved "https://registry.yarnpkg.com/@henrotaym/helpers/-/helpers-1.2.0.tgz#28bcb3dabc285a8cb82419c975de3c7b60ea8f8f"
   integrity sha512-gYpxmBeco4oI0v34S4qnJ3Dj6sDuFZbBd7c4WDECh5X/PTBfWN2SunbjwttX07vBaM5EtCSEZVWR50Jj/pqfBw==
 
-"@henrotaym/vue-3-forms@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@henrotaym/vue-3-forms/-/vue-3-forms-0.0.2.tgz#c279733447d88ccdc1b00142ada04bc7278b80c4"
-  integrity sha512-9NEo14kciwnFc8gvuGWOD4RmV4Ooey8OhzubTZMnywymgp/2UzCcvLzJjbfGc7J4dkZHQLCLWtlt6LC93PbAdg==
+"@henrotaym/vue-3-forms@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@henrotaym/vue-3-forms/-/vue-3-forms-1.0.1.tgz#52fb67da2d1a82d3b30d5f1d93e47fea94f95209"
+  integrity sha512-GXQQfQ5glQ5LCpVow3gASQn1r1j3ksktRDw106GVZnD/L2cYc5H+cSw46FhsqLL0/lBiWP3m+T55HAo1QSrMJA==
   dependencies:
     "@henrotaym/helpers" "^1.2.0"
-    joi "^17.9.1"
+    vue "^3.2.47"
+    zod "^3.21.4"
+
+"@henrotaymcorp/nuxt-modal@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@henrotaymcorp/nuxt-modal/-/nuxt-modal-0.0.4.tgz#bae74e7b070fe6987350522455162f607827675b"
+  integrity sha512-fLhe4t+9PVPwOGGO5aMyjf4wD+nZ7PSgTGxIvick+uZOENoFfz9PQgowaXnu0j1kjk3DuWfjOrmNK2ya2p9xBw==
+  dependencies:
+    "@henrotaymcorp/vue-modal" "^0.0.2"
+    "@nuxt/kit" "^3.4.2"
+
+"@henrotaymcorp/vue-modal@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@henrotaymcorp/vue-modal/-/vue-modal-0.0.2.tgz#2a56b00ca896e9a6c1d0500a05812d4331be2e6a"
+  integrity sha512-R9wZGC6ghxGSfE07cdNKm5IAA++03dy3x6Qutw5aeHDCjFDQgAskmmdLQbn8Y3ppxqF49kqMHyyqyiy9/F3/fQ==
+  dependencies:
+    mitt "^3.0.0"
     vue "^3.2.47"
 
 "@humanwhocodes/config-array@^0.11.8":
@@ -1386,23 +1381,6 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.3.0.tgz#f5635b36fc0dad96ef1e542a302cd914230188c0"
   integrity sha512-IthPJsJR85GhOkp3Hvp8zFOPK5ynKn6STyHa/WZpioK7E1aYDiBzpqQPrngc14DszIUkIrdd3k9Iu0XSzlP/1w==
 
-"@sideway/address@^4.1.3":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@sideway/address/-/address-4.1.4.tgz#03dccebc6ea47fdc226f7d3d1ad512955d4783f0"
-  integrity sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==
-  dependencies:
-    "@hapi/hoek" "^9.0.0"
-
-"@sideway/formula@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@sideway/formula/-/formula-3.0.1.tgz#80fcbcbaf7ce031e0ef2dd29b1bfc7c3f583611f"
-  integrity sha512-/poHZJJVjx3L+zVD6g9KgHfYnb443oi7wLu/XKojDviHy6HOEOA6z1Trk5aR1dGcmPenJEgb2sK2I80LeS3MIg==
-
-"@sideway/pinpoint@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
-  integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
-
 "@sigstore/protobuf-specs@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@sigstore/protobuf-specs/-/protobuf-specs-0.1.0.tgz#957cb64ea2f5ce527cc9cf02a096baeb0d2b99b4"
@@ -1519,11 +1497,6 @@
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.0.tgz#591c1ce3a702c45ee15f47a42ade72c2fd78978a"
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
-
-"@types/web-bluetooth@^0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz#1d12873a8e49567371f2a75fe3e7f7edca6662d8"
-  integrity sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==
 
 "@types/web-bluetooth@^0.0.17":
   version "0.0.17"
@@ -1900,16 +1873,6 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
-"@vueuse/core@9.13.0", "@vueuse/core@^9.13.0":
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.13.0.tgz#2f69e66d1905c1e4eebc249a01759cf88ea00cf4"
-  integrity sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==
-  dependencies:
-    "@types/web-bluetooth" "^0.0.16"
-    "@vueuse/metadata" "9.13.0"
-    "@vueuse/shared" "9.13.0"
-    vue-demi "*"
-
 "@vueuse/core@^10.1.2":
   version "10.1.2"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-10.1.2.tgz#2499eadec36c5d7109338e3a2b73725040ae8011"
@@ -1920,24 +1883,10 @@
     "@vueuse/shared" "10.1.2"
     vue-demi ">=0.14.0"
 
-"@vueuse/integrations@^9.13.0":
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-9.13.0.tgz#a086459ab19b5bf98546d4f455c102dcf38a5cef"
-  integrity sha512-I1kX/tsfcvWWLZD7HZaP0LsSfchK13YxReLfharXhk72SFXp87doLbRaTfIF5w8m/gr/vPtcNyQPAXW7Ubpuww==
-  dependencies:
-    "@vueuse/core" "9.13.0"
-    "@vueuse/shared" "9.13.0"
-    vue-demi "*"
-
 "@vueuse/metadata@10.1.2":
   version "10.1.2"
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-10.1.2.tgz#d8ffe557b1042efd03a0aa88540a00c25d193ee3"
   integrity sha512-3mc5BqN9aU2SqBeBuWE7ne4OtXHoHKggNgxZR2K+zIW4YLsy6xoZ4/9vErQs6tvoKDX6QAqm3lvsrv0mczAwIQ==
-
-"@vueuse/metadata@9.13.0":
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.13.0.tgz#bc25a6cdad1b1a93c36ce30191124da6520539ff"
-  integrity sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==
 
 "@vueuse/shared@10.1.2":
   version "10.1.2"
@@ -1945,13 +1894,6 @@
   integrity sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA==
   dependencies:
     vue-demi ">=0.14.0"
-
-"@vueuse/shared@9.13.0":
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.13.0.tgz#089ff4cc4e2e7a4015e57a8f32e4b39d096353b9"
-  integrity sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==
-  dependencies:
-    vue-demi "*"
 
 abbrev@1, abbrev@^1.0.0:
   version "1.1.1"
@@ -3969,13 +3911,6 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
-focus-trap@^7.4.0:
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-7.4.3.tgz#a3dae73d44df359eb92bbf37b18e173e813b16c5"
-  integrity sha512-BgSSbK4GPnS2VbtZ50VtOv1Sti6DIkj3+LkVjiWMNjLeAp1SH1UlLx3ULu/DCu4vq5R4/uvTm+zrvsMsuYmGLg==
-  dependencies:
-    tabbable "^6.1.2"
-
 follow-redirects@^1.0.0:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
@@ -4963,17 +4898,6 @@ jiti@^1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.18.2.tgz#80c3ef3d486ebf2450d9335122b32d121f2a83cd"
   integrity sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==
-
-joi@^17.9.1, joi@^17.9.2:
-  version "17.9.2"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-17.9.2.tgz#8b2e4724188369f55451aebd1d0b1d9482470690"
-  integrity sha512-Itk/r+V4Dx0V3c7RLFdRh12IOjySm2/WGPMubBT92cQvRfYZhPM2W0hZlctjj72iES8jsRCwp7S/cRmWBnJ4nw==
-  dependencies:
-    "@hapi/hoek" "^9.0.0"
-    "@hapi/topo" "^5.0.0"
-    "@sideway/address" "^4.1.3"
-    "@sideway/formula" "^3.0.1"
-    "@sideway/pinpoint" "^2.0.0"
 
 js-string-escape@^1.0.1:
   version "1.0.1"
@@ -7854,11 +7778,6 @@ synckit@^0.8.5:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.5.0"
 
-tabbable@^6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-6.1.2.tgz#b0d3ca81d582d48a80f71b267d1434b1469a3703"
-  integrity sha512-qCN98uP7i9z0fIS4amQ5zbGBOq+OSigYeGvPy7NDk8Y9yncqDZ9pRPgfsc2PJIVM9RrJj7GIfuRgmjoUU9zTHQ==
-
 tailwindcss@^3.3.1:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.2.tgz#2f9e35d715fdf0bbf674d90147a0684d7054a2d3"
@@ -8547,7 +8466,7 @@ vue-bundle-renderer@^1.0.3:
   dependencies:
     ufo "^1.1.1"
 
-vue-demi@*, vue-demi@>=0.14.0:
+vue-demi@>=0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.5.tgz#676d0463d1a1266d5ab5cba932e043d8f5f2fbd9"
   integrity sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==
@@ -8570,16 +8489,6 @@ vue-eslint-parser@^9.3.0:
     lodash "^4.17.21"
     semver "^7.3.6"
 
-vue-final-modal@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/vue-final-modal/-/vue-final-modal-4.4.2.tgz#3f4e8a89425ff2276a651d20e4e7ea830f369c22"
-  integrity sha512-KO7I7cNgOI28MVS1JOelJrbZNSomPog0lMS8oeETo7XkH4BLpGyntbvasW63Zg0xpawuVwZ7oV3xb7qeHLSNxw==
-  dependencies:
-    "@vueuse/core" "^9.13.0"
-    "@vueuse/integrations" "^9.13.0"
-    focus-trap "^7.4.0"
-    vue "^3.2.47"
-
 vue-i18n@9:
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-9.2.2.tgz#aeb49d9424923c77e0d6441e3f21dafcecd0e666"
@@ -8596,13 +8505,6 @@ vue-router@^4.2.1:
   integrity sha512-nW28EeifEp8Abc5AfmAShy5ZKGsGzjcnZ3L1yc2DYUo+MqbBClrRP9yda3dIekM4I50/KnEwo1wkBLf7kHH5Cw==
   dependencies:
     "@vue/devtools-api" "^6.5.0"
-
-vue-star-rating@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vue-star-rating/-/vue-star-rating-2.1.0.tgz#303df0231b5d04d271977c44a0967d4768b44e75"
-  integrity sha512-LnhuQPi4hkRg7egKls+iqtL1U0RTN2gQkdLsJN7acyynMsSc9epHLzk8McJS+bR0OzfG98zNFq7mxAyuSb/okQ==
-  dependencies:
-    vue "^3.0.0"
 
 vue-template-compiler@^2.7.14:
   version "2.7.14"
@@ -8621,7 +8523,7 @@ vue-tsc@^1.4.4:
     "@volar/vue-typescript" "1.6.5"
     semver "^7.3.8"
 
-vue@^3.0.0, vue@^3.2.47, vue@^3.3.4:
+vue@^3.2.47, vue@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.3.4.tgz#8ed945d3873667df1d0fcf3b2463ada028f88bd6"
   integrity sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==
@@ -8879,6 +8781,11 @@ yargs@^17.5.1, yargs@^17.7.1:
     string-width "^4.2.3"
     y18n "^5.0.5"
     yargs-parser "^21.1.1"
+
+yarn@^1.22.19:
+  version "1.22.19"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.19.tgz#4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  integrity sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ==
 
 yocto-queue@^0.1.0:
   version "0.1.0"

@@ -1,8 +1,8 @@
 import {
   defineNuxtModule,
-  // createResolver,
-  // addComponent,
-  // addImports,
+  addImports,
+  createResolver,
+  // addPlugin,
 } from "@nuxt/kit";
 
 // Module options TypeScript interface definition
@@ -15,21 +15,22 @@ export default defineNuxtModule<ModuleOptions>({
   },
   defaults: {},
   setup(_options, _nuxt) {
-    // const resolver = createResolver(import.meta.url);
-    // addComponent({
-    //   name: "TrustupIoToasteo",
-    //   export: "NotificationContainer",
-    //   filePath: "@deegital/vue-trustup-io-toasteo",
-    // });
-    // addImports([
-    //   {
-    //     name: "useCreateSatisfaction",
-    //     from: "@deegital/vue-3-trustup-io-satisfactions",
-    //   },
-    //   {
-    //     name: "useEditSatisfaction",
-    //     from: "@deegital/vue-3-trustup-io-satisfactions",
-    //   },
-    // ]);
+    const { resolve } = createResolver(import.meta.url);
+    _nuxt.options.css.push("@deegital/vue-3-trustup-io-satisfactions");
+    addImports([
+      {
+        name: "useCreateNoteModal",
+        from: resolve("./runtime/composables/useCreateNoteModal"),
+      },
+      {
+        name: "useEditNoteModal",
+        from: resolve("./runtime/composables/useEditNoteModal"),
+      },
+      // {
+      //   name: "useEditSatisfaction",
+      //   from: "@deegital/vue-3-trustup-io-satisfactions",
+      // },
+    ]);
+    // addPlugin(resolve("./runtime/plugins/satisfactionPlugin"));
   },
 });

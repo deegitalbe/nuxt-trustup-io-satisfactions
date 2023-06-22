@@ -2,7 +2,17 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export default defineNuxtConfig({
-  modules: ["../src/module", "@deegital/nuxt-trustup-io-vue-final-modal"],
+  modules: [
+    "@deegital/nuxt-trustup-io-translations",
+    "@henrotaymcorp/nuxt-modal",
+
+    "../src/module",
+  ],
+  runtimeConfig: {
+    public: {
+      appName: "trustup-pro",
+    },
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
