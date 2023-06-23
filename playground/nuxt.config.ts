@@ -3,13 +3,10 @@ dotenv.config();
 
 export default defineNuxtConfig({
   modules: [
-    "../src/module",
     "@henrotaymcorp/nuxt-modal",
-    "@deegital/nuxt-trustup-io-translations",
+    // "@deegital/nuxt-trustup-io-translations",
+    "../src/module",
   ],
-  nuxtTrustupIoSatisfactions: {
-    // @TODO
-  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -21,8 +18,6 @@ export default defineNuxtConfig({
       appName: "trustup-pro",
     },
   },
-  nuxtModal: {},
-
   css: ["~/assets/css/main.css"],
   typescript: {
     strict: true,

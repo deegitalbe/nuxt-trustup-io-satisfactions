@@ -26,10 +26,10 @@ export default defineNuxtModule<ModuleOptions>({
         name: "useEditNoteModal",
         from: resolve("./runtime/composables/useEditNoteModal"),
       },
-      // {
-      //   name: "useEditSatisfaction",
-      //   from: "@deegital/vue-3-trustup-io-satisfactions",
-      // },
+      {
+        name: "useEditSatisfaction",
+        from: "@deegital/vue-3-trustup-io-satisfactions",
+      },
     ]);
     // addPlugin(resolve("./runtime/plugins/satisfactionPlugin"));
   },

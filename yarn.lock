@@ -514,17 +514,17 @@
   dependencies:
     vue "^3.2.47"
 
-"@deegital/vue-3-trustup-io-satisfactions@^0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.6.tgz#34b01419117d827d9c3f692aeea205fe69fa9af3"
-  integrity sha512-u021iTmfixw01c5kO7G1rKZIbny57ZHNYYu/JQRAF0o9Hc0GpQ6DsevGnJBynU2PJCi+bsJVSQdU7w1uXQl0eg==
+"@deegital/vue-3-trustup-io-satisfactions@^0.4.7":
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.7.tgz#298d25345c6445bfe3f446ff233644ca662b50c5"
+  integrity sha512-CEiwhoKVEEyrQ++S+Lua0lLeHooaHxuoZ81XF6zH0mlYB+YUn2UTy8lbRiZ65nCiV3akRh8LrWsm2Ii3Kikb/w==
   dependencies:
     "@deegital/vue-3-trustup-io-loader" "^0.0.8"
     "@deegital/vue-3-trustup-io-translations" "^0.0.12"
     "@deegital/vue-trustup-io-toasteo" "^1.1.9"
     "@henrotaym/api-client" "^1.3.3"
     "@henrotaym/vue-3-forms" "^1.0.1"
-    "@henrotaymcorp/vue-modal" "^0.0.2"
+    "@henrotaymcorp/vue-modal" "^0.0.5"
     "@vueuse/core" "^10.1.2"
     mitt "^3.0.0"
     vue "^3.2.47"
@@ -711,18 +711,18 @@
     vue "^3.2.47"
     zod "^3.21.4"
 
-"@henrotaymcorp/nuxt-modal@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@henrotaymcorp/nuxt-modal/-/nuxt-modal-0.0.4.tgz#bae74e7b070fe6987350522455162f607827675b"
-  integrity sha512-fLhe4t+9PVPwOGGO5aMyjf4wD+nZ7PSgTGxIvick+uZOENoFfz9PQgowaXnu0j1kjk3DuWfjOrmNK2ya2p9xBw==
+"@henrotaymcorp/nuxt-modal@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@henrotaymcorp/nuxt-modal/-/nuxt-modal-0.0.5.tgz#50c8ef576c1ed6109b22a393cae40bc92528b163"
+  integrity sha512-Y9si9yB08UoPlA7UCM8AeNkyfMFyi7Xd+0Eiy9rU/UHMd595zlvFHz9IubkQFc1Dd/bk1BYokmF8WVY+aTMSYQ==
   dependencies:
-    "@henrotaymcorp/vue-modal" "^0.0.2"
+    "@henrotaymcorp/vue-modal" "^0.0.5"
     "@nuxt/kit" "^3.4.2"
 
-"@henrotaymcorp/vue-modal@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@henrotaymcorp/vue-modal/-/vue-modal-0.0.2.tgz#2a56b00ca896e9a6c1d0500a05812d4331be2e6a"
-  integrity sha512-R9wZGC6ghxGSfE07cdNKm5IAA++03dy3x6Qutw5aeHDCjFDQgAskmmdLQbn8Y3ppxqF49kqMHyyqyiy9/F3/fQ==
+"@henrotaymcorp/vue-modal@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@henrotaymcorp/vue-modal/-/vue-modal-0.0.5.tgz#ff5b7bc630c8f3fa8ec31e3bb021fe0fabdadbd7"
+  integrity sha512-YLELVgkf5i4P0q40EHrFhG6zS6sCYp41QJRARUNN09gHzAHmn84X1cwHMc2HAOntajaD6NT+1XW4XbfXgQuz/w==
   dependencies:
     mitt "^3.0.0"
     vue "^3.2.47"
