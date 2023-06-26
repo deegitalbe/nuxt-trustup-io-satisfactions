@@ -35,13 +35,18 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, useEditSatisfaction } from "#imports";
+import { onMounted, ref, useCreateSatisfaction, Origin } from "#imports";
 import "../node_modules/@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
 import "@henrotaymcorp/vue-modal/dist/style.css";
 const isReady = ref<boolean>(false);
 
 // const { open } = useModal(SayHello, {});
 onMounted(() => (isReady.value = true));
-const { open, onSuccess } = useEditSatisfaction("1");
+const { open, onSuccess } = useCreateSatisfaction({
+  origin: Origin.MARKETPLACE,
+  createdById: 1,
+  relatedToId: "2",
+  relatedToType: "tenant",
+});
 onSuccess((note) => console.log(note));
 </script>

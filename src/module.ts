@@ -16,19 +16,23 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {},
   setup(_options, _nuxt) {
     const { resolve } = createResolver(import.meta.url);
-    _nuxt.options.css.push("@deegital/vue-3-trustup-io-satisfactions");
+    _nuxt.options.css.unshift("@deegital/vue-3-trustup-io-satisfactions");
     addImports([
-      {
-        name: "useCreateNoteModal",
-        from: resolve("./runtime/composables/useCreateNoteModal"),
-      },
-      {
-        name: "useEditNoteModal",
-        from: resolve("./runtime/composables/useEditNoteModal"),
-      },
       {
         name: "useEditSatisfaction",
         from: "@deegital/vue-3-trustup-io-satisfactions",
+      },
+    ]);
+    addImports([
+      {
+        name: "useCreateSatisfaction",
+        from: "@deegital/vue-3-trustup-io-satisfactions",
+      },
+    ]);
+    addImports([
+      {
+        name: "Origin",
+        from: resolve("./runtime/enums/Origin"),
       },
     ]);
     addPlugin(resolve("./runtime/plugins/satisfactionPlugin"), {
