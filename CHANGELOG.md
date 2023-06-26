@@ -1,5 +1,12 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.2
+
+### Patch Changes
+
+- 2dc1c29: Using plugin to register translations.
+- d5c6a54: Adding enums for Origin
+
 ## 0.1.1
 
 ### Patch Changes
