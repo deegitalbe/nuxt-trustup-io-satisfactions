@@ -4,7 +4,7 @@ dotenv.config();
 export default defineNuxtConfig({
   modules: [
     "@henrotaymcorp/nuxt-modal",
-    // "@deegital/nuxt-trustup-io-translations",
+    "@deegital/nuxt-trustup-io-translations",
     "../src/module",
   ],
   postcss: {

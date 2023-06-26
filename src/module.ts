@@ -2,7 +2,7 @@ import {
   defineNuxtModule,
   addImports,
   createResolver,
-  // addPlugin,
+  addPlugin,
 } from "@nuxt/kit";
 
 // Module options TypeScript interface definition
@@ -31,6 +31,8 @@ export default defineNuxtModule<ModuleOptions>({
         from: "@deegital/vue-3-trustup-io-satisfactions",
       },
     ]);
-    // addPlugin(resolve("./runtime/plugins/satisfactionPlugin"));
+    addPlugin(resolve("./runtime/plugins/satisfactionPlugin"), {
+      append: true,
+    });
   },
 });

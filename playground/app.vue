@@ -25,6 +25,7 @@
               Let's build something amazing !
               <button @click="open()">youhou</button>
             </div>
+            <div>{{ $t("worksite-admin.sidebar.clients") }}</div>
           </div>
         </div>
       </div>
