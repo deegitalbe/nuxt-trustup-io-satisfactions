@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.3
+
+### Patch Changes
+
+- 16f8665: updating dependencies
+
 ## 0.1.2
 
 ### Patch Changes
