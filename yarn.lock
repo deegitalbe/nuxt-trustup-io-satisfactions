@@ -514,10 +514,10 @@
   dependencies:
     vue "^3.2.47"
 
-"@deegital/vue-3-trustup-io-satisfactions@^0.4.9":
-  version "0.4.9"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.9.tgz#70f1fa2405016b8c0736d9c85e0d2264c0ae9acd"
-  integrity sha512-3NXHxWV+xWUp9+AL16ZnH/OHXwGN2Tm5A07lpVawEGRzFxqB6Xg8WRHSM7+L382pAGcyPOAPt0v7H39qN0+pHA==
+"@deegital/vue-3-trustup-io-satisfactions@^0.4.11":
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.11.tgz#52e2250644f9798c5c3efb8154cd4bc655f9a0e2"
+  integrity sha512-7rp1EdcJYDxcmH7nrBVvoJtxMYcNjKJP3lLK7xF6NDfJMS+jkrWPddWthZ/aaB1fsLMMhSXQT756s6fPUHxHZQ==
   dependencies:
     "@deegital/vue-3-trustup-io-loader" "^0.0.8"
     "@deegital/vue-3-trustup-io-translations" "^0.0.15"
