@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.10
+
+### Patch Changes
+
+- 8749483: .
+
 ## 0.1.9
 
 ### Patch Changes
