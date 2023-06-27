@@ -36,7 +36,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref, useCreateSatisfaction, Origin } from "#imports";
-import "../node_modules/@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
+// import "@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
 import "@henrotaymcorp/vue-modal/dist/style.css";
 const isReady = ref<boolean>(false);
 

@@ -14,11 +14,9 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: "nuxtTrustupIoSatisfactions",
   },
   defaults: {},
-  setup(_options) {
+  setup(_options, nuxt) {
     const { resolve } = createResolver(import.meta.url);
-    // nuxt.options.css.unshift(
-    //   "@deegital/vue-3-trustup-io-satisfactions/dist/style.css"
-    // );
+    nuxt.options.css.unshift("./runtime/css/style.css");
     addImports([
       {
         name: "useEditSatisfaction",
