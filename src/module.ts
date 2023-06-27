@@ -14,9 +14,9 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: "nuxtTrustupIoSatisfactions",
   },
   defaults: {},
-  setup(_options, _nuxt) {
+  setup(_options, nuxt) {
     const { resolve } = createResolver(import.meta.url);
-    _nuxt.options.css.unshift(
+    nuxt.options.css.unshift(
       "@deegital/vue-3-trustup-io-satisfactions/dist/style.css"
     );
     addImports([
