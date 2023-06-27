@@ -1,5 +1,12 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.12
+
+### Patch Changes
+
+- 0de2893: Reset css import as how it should be
+- 9220723: debug
+
 ## 0.1.11
 
 ### Patch Changes
