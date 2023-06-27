@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.6
+
+### Patch Changes
+
+- 4cda14c: fixing css path
+
 ## 0.1.5
 
 ### Patch Changes
