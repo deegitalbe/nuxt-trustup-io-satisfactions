@@ -1,6 +1,6 @@
 {
   "name": "@deegital/nuxt-trustup-io-satisfactions",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "nuxt-trustup-io-satisfactions",
   "files": [
     "dist"

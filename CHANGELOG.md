@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.11
+
+### Patch Changes
+
+- f445bfa: .
+
 ## 0.1.10
 
 ### Patch Changes
