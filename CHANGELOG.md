@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.4
+
+### Patch Changes
+
+- 5405d94: updating vue satisfactions
+
 ## 0.1.3
 
 ### Patch Changes
