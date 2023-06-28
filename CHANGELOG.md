@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.13
+
+### Patch Changes
+
+- 7d3074d: Removing temp fix.
+
 ## 0.1.12
 
 ### Patch Changes
