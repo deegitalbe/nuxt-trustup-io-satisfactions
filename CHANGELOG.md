@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.14
+
+### Patch Changes
+
+- 5764ce8: updating tailwind version..
+
 ## 0.1.13
 
 ### Patch Changes
