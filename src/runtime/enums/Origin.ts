@@ -1,6 +1,6 @@
-enum Origin {
-  WORKSITE = "worksite",
-  MARKETPLACE = "marketplace",
-}
+// enum Origin {
+//   WORKSITE = "worksite",
+//   MARKETPLACE = "marketplace",
+// }
 
-export { Origin };
+// export { Origin };

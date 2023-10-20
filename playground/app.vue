@@ -35,7 +35,11 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, useCreateSatisfaction, Origin } from "#imports";
+import {
+  ORIGIN,
+  RELATED_TO_TYPE,
+} from "@deegital/vue-3-trustup-io-satisfactions";
+import { onMounted, ref, useCreateSatisfaction } from "#imports";
 // import "@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
 import "@henrotaymcorp/vue-modal/dist/style.css";
 // import "@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
@@ -44,10 +48,10 @@ const isReady = ref<boolean>(false);
 // const { open } = useModal(SayHello, {});
 onMounted(() => (isReady.value = true));
 const { open, onSuccess } = useCreateSatisfaction({
-  origin: Origin.MARKETPLACE,
+  origin: ORIGIN.MARKETPLACE,
   createdById: 1,
   relatedToId: "2",
-  relatedToType: "tenant",
+  relatedToType: RELATED_TO_TYPE.PRO,
 });
 onSuccess((note) => console.log(note));
 </script>

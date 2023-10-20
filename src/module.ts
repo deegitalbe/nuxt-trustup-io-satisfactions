@@ -33,12 +33,7 @@ export default defineNuxtModule<ModuleOptions>({
         from: "@deegital/vue-3-trustup-io-satisfactions",
       },
     ]);
-    addImports([
-      {
-        name: "Origin",
-        from: resolve("./runtime/enums/Origin"),
-      },
-    ]);
+
     addPlugin(resolve("./runtime/plugins/satisfactionPlugin"), {
       append: true,
     });

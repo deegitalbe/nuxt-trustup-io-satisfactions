@@ -514,14 +514,14 @@
   dependencies:
     vue "^3.2.47"
 
-"@deegital/vue-3-trustup-io-satisfactions@^0.4.17":
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.17.tgz#7fb0f37e840434f305e4d56cc2dc8fc4d49ee21f"
-  integrity sha512-aqBTw3jhvCSHc31OZTcB3qHgzMtuWa4WGM7sSfJST6UbR3gIzTQXaDxwE19FN8QVBZYw0m03VD8a3iJ5ZfpFNw==
+"@deegital/vue-3-trustup-io-satisfactions@^0.4.22":
+  version "0.4.22"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-3-trustup-io-satisfactions/-/vue-3-trustup-io-satisfactions-0.4.22.tgz#e2e45bb60f6e5798b70a8c05c3ec101a32f4ce1e"
+  integrity sha512-kf8Z+B+LT4tOONvxlPUur/Ze+JAnv2fr7uAXFMtJKISjgRbh+7JpVlZ27JKtK/l6NW0/OelhlPTd3LxPgnyltA==
   dependencies:
     "@deegital/vue-3-trustup-io-loader" "^0.0.8"
     "@deegital/vue-3-trustup-io-translations" "^0.0.15"
-    "@deegital/vue-trustup-io-toasteo" "^1.1.9"
+    "@deegital/vue-trustup-io-toasteo" "^1.1.11"
     "@henrotaym/api-client" "^1.3.3"
     "@henrotaym/vue-3-forms" "^1.0.1"
     "@henrotaymcorp/vue-modal" "^0.0.5"
@@ -543,10 +543,10 @@
     vue "^3.2.47"
     vue-i18n "9"
 
-"@deegital/vue-trustup-io-toasteo@^1.1.9":
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/@deegital/vue-trustup-io-toasteo/-/vue-trustup-io-toasteo-1.1.10.tgz#f378b5b3e3b178bf84c6397f104ae91ec9cda1e5"
-  integrity sha512-N3o84x5215XcjFEKkRenZK9CO0fWwUUbhd6SvWuO9DmR1IcqPkUpxsf9tcHe39kO007mdFmNeNu6P49DLMORwA==
+"@deegital/vue-trustup-io-toasteo@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@deegital/vue-trustup-io-toasteo/-/vue-trustup-io-toasteo-1.1.11.tgz#f32546cd12c7e3f68b8033ca7bcbb577ae7a2c5c"
+  integrity sha512-NWdgIFPit+uHbjiBe38vbTpJaNkAJ1U1MGXhvBsCObQGbN3iaxRAIhZWkFMwLwCEc7tRohdYGY15A3hCqhgsAw==
   dependencies:
     vue "^3.2.47"
 
