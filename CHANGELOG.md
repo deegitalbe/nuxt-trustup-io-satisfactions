@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.15
+
+### Patch Changes
+
+- 97d452d: Fixing hard coded value and Typing enum correctly
+
 ## 0.1.14
 
 ### Patch Changes
