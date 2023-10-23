@@ -16,6 +16,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       appName: "trustup-pro",
+      trustupIoSatisfactionUrl: "http://satisfaction.trustup.io.test",
     },
   },
   css: ["~/assets/css/main.css"],

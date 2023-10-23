@@ -4,6 +4,8 @@ import {
   createResolver,
   addPlugin,
 } from "@nuxt/kit";
+import { defu } from "defu";
+
 // save for later
 
 // Module options TypeScript interface definition
@@ -18,6 +20,10 @@ export default defineNuxtModule<ModuleOptions>({
   setup(_options, nuxt) {
     const { resolve } = createResolver(import.meta.url);
 
+    nuxt.options.runtimeConfig.public.nuxtTrustupIoSatisfactions = defu(
+      nuxt.options.runtimeConfig.public.nuxtTrustupIoSatisfactions,
+      _options
+    );
     nuxt.options.css.unshift(
       "@deegital/vue-3-trustup-io-satisfactions/dist/style.css"
     );

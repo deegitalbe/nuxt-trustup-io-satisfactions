@@ -1,6 +1,10 @@
 import { satisfactionPlugin } from "@deegital/vue-3-trustup-io-satisfactions";
-import { defineNuxtPlugin } from "#imports";
+import { defineNuxtPlugin, useRuntimeConfig } from "#imports";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.use(satisfactionPlugin);
+  const { trustupIoSatisfactionUrl } = useRuntimeConfig().public;
+
+  nuxtApp.vueApp.use(satisfactionPlugin, {
+    url: trustupIoSatisfactionUrl,
+  });
 });

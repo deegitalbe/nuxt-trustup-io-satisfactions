@@ -8,6 +8,13 @@ nuxt-trustup-io-satisfactions
 yarn add @deegital/nuxt-trustup-io-satisfactions
 ```
 
+## ENV
+
+```
+NUXT_PUBLIC_TRUSTUP_IO_SATISFACTION_URL
+```
+
+
 Add `@deegital/nuxt-trustup-io-satisfactions` to the `modules` section of `nuxt.config.ts`
 
 ```typescript
@@ -18,6 +25,11 @@ export default defineNuxtConfig({
   nuxtTrustupIoSatisfactions: {
     // @TODO
   }
+    runtimeConfig: {
+    public: {
+      trustupIoSatisfactionUrl: "",
+    },
+  },
 })
 ```
 
