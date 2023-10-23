@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.17
+
+### Patch Changes
+
+- 4f5d88f: Adding defu to dependencies.
+
 ## 0.1.16
 
 ### Patch Changes
