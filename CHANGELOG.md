@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.16
+
+### Patch Changes
+
+- 8d87478: Updating read me, adding satisfaction url.
+
 ## 0.1.15
 
 ### Patch Changes
