@@ -66,6 +66,7 @@
     "@deegital/nuxt-trustup-io-translations": "^0.0.10",
     "@deegital/vue-3-trustup-io-satisfactions": "^0.5.1",
     "@henrotaymcorp/nuxt-modal": "^0.0.5",
-    "@nuxt/kit": "^3.4.2"
+    "@nuxt/kit": "^3.4.2",
+    "defu": "^6.1.2"
   }
 }

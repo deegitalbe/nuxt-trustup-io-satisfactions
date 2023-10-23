@@ -6,8 +6,6 @@ import {
 } from "@nuxt/kit";
 import { defu } from "defu";
 
-// save for later
-
 // Module options TypeScript interface definition
 export interface ModuleOptions {}
 
