@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.18
+
+### Patch Changes
+
+- a7cee38: FIxing endpoint,front
+
 ## 0.1.17
 
 ### Patch Changes
