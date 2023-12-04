@@ -16,10 +16,27 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       appName: "trustup-pro",
-      trustupIoSatisfactionUrl: "http://satisfaction.trustup.io.test",
+      trustupIoSatisfactionUrl:
+        "https://trustup-io-satisfaction.docker.localhost",
     },
   },
   css: ["~/assets/css/main.css"],
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://kit.fontawesome.com/b6735ddc8e.js",
+          crossorigin: "anonymous",
+        },
+      ],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+        },
+      ],
+    },
+  },
   typescript: {
     strict: true,
   },
