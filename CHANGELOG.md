@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.19
+
+### Patch Changes
+
+- eabbe9d: Updating vue satisfaction version.
+
 ## 0.1.18
 
 ### Patch Changes
