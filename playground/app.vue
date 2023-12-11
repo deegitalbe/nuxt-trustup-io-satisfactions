@@ -35,8 +35,11 @@
 </template>
 
 <script setup lang="ts">
-import { useEditSatisfaction } from "@deegital/vue-3-trustup-io-satisfactions";
-import { onMounted, ref } from "#imports";
+import {
+  ORIGIN,
+  RELATED_TO_TYPE,
+} from "@deegital/vue-3-trustup-io-satisfactions";
+import { onMounted, ref, useCreateSatisfaction } from "#imports";
 // import "@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
 import "@henrotaymcorp/vue-modal/dist/style.css";
 // import "@deegital/vue-3-trustup-io-satisfactions/dist/style.css";
@@ -44,7 +47,12 @@ const isReady = ref<boolean>(false);
 
 // const { open } = useModal(SayHello, {});
 onMounted(() => (isReady.value = true));
-const { open, onSuccess, close } = useEditSatisfaction("4");
+const { open, onSuccess, close } = useCreateSatisfaction({
+  origin: ORIGIN.MARKETPLACE,
+  relatedToType: RELATED_TO_TYPE.ERP_QUOTE,
+  relatedToId: "aze",
+  createdById: 1,
+});
 onSuccess((note) => {
   console.log(note);
   close();
