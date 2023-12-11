@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.20
+
+### Patch Changes
+
+- 89683e0: Updating related type enum.
+
 ## 0.1.19
 
 ### Patch Changes
