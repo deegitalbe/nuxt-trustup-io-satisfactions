@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.21
+
+### Patch Changes
+
+- 44c06c9: Updating translation key
+
 ## 0.1.20
 
 ### Patch Changes
