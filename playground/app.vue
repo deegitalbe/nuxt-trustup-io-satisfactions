@@ -52,6 +52,7 @@ const { open, onSuccess, close } = useCreateSatisfaction({
   relatedToType: RELATED_TO_TYPE.ERP_QUOTE,
   relatedToId: "aze",
   createdById: 1,
+  isMarketplace: true,
 });
 onSuccess((note) => {
   console.log(note);
