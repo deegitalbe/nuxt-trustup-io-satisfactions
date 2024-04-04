@@ -1,5 +1,11 @@
 # @deegital/nuxt-trustup-io-satisfactions
 
+## 0.1.23
+
+### Patch Changes
+
+- c0ca009: Upgrade vue package
+
 ## 0.1.22
 
 ### Patch Changes
